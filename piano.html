@@ -1,0 +1,135 @@
+<body>
+  <section id="wrap">
+    <header>
+      <h1>PiaNo</h1>
+      <h3>Use your keyboard. Hover for hints.</h3>
+      <h2>
+        Step into a world of sound — headphones give you the front-row seat!
+      </h2>
+      <link rel="stylesheet" href="piano.css" />
+    </header>
+    <section id="main">
+      <div class="nowplaying"></div>
+      <div class="keys">
+        <div data-key="a" class="key" data-note="C">
+          <span class="hints">A</span>
+        </div>
+        <div data-key="87" class="key sharp" data-note="C#">
+          <span class="hints">W</span>
+        </div>
+        <div data-key="s" class="key" data-note="D">
+          <span class="hints">S</span>
+        </div>
+        <div data-key="69" class="key sharp" data-note="D#">
+          <span class="hints">E</span>
+        </div>
+        <div data-key="d" class="key" data-note="E">
+          <span class="hints">D</span>
+        </div>
+        <div data-key="f" class="key" data-note="F">
+          <span class="hints">F</span>
+        </div>
+        <div data-key="84" class="key sharp" data-note="F#">
+          <span class="hints">T</span>
+        </div>
+        <div data-key="g" class="key" data-note="G">
+          <span class="hints">G</span>
+        </div>
+        <div data-key="89" class="key sharp" data-note="G#">
+          <span class="hints">Y</span>
+        </div>
+        <div data-key="h" class="key" data-note="A">
+          <span class="hints">H</span>
+        </div>
+        <div data-key="85" class="key sharp" data-note="A#">
+          <span class="hints">U</span>
+        </div>
+        <div data-key="j" class="key" data-note="B">
+          <span class="hints">J</span>
+        </div>
+        <div data-key="k" class="key" data-note="C">
+          <span class="hints">K</span>
+        </div>
+        <div data-key="79" class="key sharp" data-note="C#">
+          <span class="hints">O</span>
+        </div>
+        <div data-key="l" class="key" data-note="D">
+          <span class="hints">L</span>
+        </div>
+        <div data-key="80" class="key sharp" data-note="D#">
+          <span class="hints">P</span>
+        </div>
+        <div data-key=";" class="key" data-note="E">
+          <span class="hints">;</span>
+        </div>
+      </div>
+
+      <audio
+        data-key="a"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e51001b40307b9c/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="s"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e4a0024a9940eca/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="d"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e5400129c19bb13/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="f"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e4e0002f1b1b6f6/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="g"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e4f0033c0b17792/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="h"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e550035f281ca09/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="j"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e5700206fd71cb6/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="k"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e4c0002a2857211/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key="l"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133da20025d139005d/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+      <audio
+        data-key=";"
+        src="https://cloud.appwrite.io/v1/storage/buckets/6769a220001e31aa741a/files/68133e4e0002f1b1b6f6/view?project=67699cb40019bcba6057"
+        preload="auto"
+      ></audio>
+    </section>
+  </section>
+
+  <video
+    playsinline
+    autoplay
+    muted
+    loop
+    id="bgvid"
+    poster="http://carolinegabriel.com/demo/js-keyboard/video/bg.jpg"
+  >
+    <source
+      src="http://carolinegabriel.com/demo/js-keyboard/video/bg.mp4"
+      type="video/mp4"
+    />
+  </video>
+
+  <script src="piano.js"></script>
+</body>
