@@ -154,3 +154,8 @@ h3 {
 .keys:hover .hints {
   opacity: 1;
 }
+
+#headphone{
+  background: red;
+  padding: 0 4px;
+}
